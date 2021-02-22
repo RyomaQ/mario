@@ -1,0 +1,1690 @@
+/* Accueil */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Monserrat', sans-serif;
+}
+
+#accueil-1 {
+    height: 100vh; 
+    background-color: #dc2f30;
+}
+
+#navicon-burger {
+    display: none;
+    color: #ffffff;
+    padding: 20px 30px;
+    font-size: 50px;
+}
+
+.fermeMenu {
+    display: none;
+}
+
+#mario-head {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.mario-div {
+    width: 320px;
+    height: 360px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 20vh;
+    
+}
+
+.mario-div:hover ~ .bulle-div  {
+    display: block;
+}
+
+#mario-font {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25vh;
+}
+
+#menu {
+    display: flex;
+}
+
+#menu li a {
+    font-size: 2vw;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.2s ease all;
+}
+
+#menu li a:hover {
+    text-decoration: underline;
+}
+
+#menu li {
+    margin-left: 4%;
+    list-style-type: none;    
+}
+
+#bulle {
+    display: block;
+    margin: -70vh 60%;
+}
+
+.bulle-div {
+    display: none;
+}
+
+/* Description */
+
+#div_nav_bio {
+    background-color: #1f326e;
+}
+
+.fermeBouton {
+    color: #fff;
+    width: 5%;
+    position: fixed;
+    top: 4vh;
+    left: 0%;
+    transform: rotate(180deg);
+    transition: 0.3s;
+  }
+
+  .fermeBouton:hover {
+      width: 6%;
+  }
+
+.fermeBouton {
+    color: #fff;
+    width: 5%;
+    position: fixed;
+    top: 4vh;
+    left: 0%;
+    transform: rotate(180deg);
+    transition: 0.3s;
+  }
+
+.fermeBouton:hover {
+      width: 6%;
+  }
+  
+.blue1 {
+    height: 100vh;
+    width: 50%;
+    background-color: #1f326e;
+}
+
+.red1 {
+    height: 100vh;
+    width: 50%;
+    background-color: #dc2f30;
+    overflow: hidden;
+}
+
+.description {
+    display: flex;
+}
+
+.texte-div {
+    width: 65%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 13vh;
+}
+
+.titre {
+    color: #dc2f30;
+    font-size: 3vw;
+    font: 'Monserrat', sans-serif; 
+    font-family: sans-serif;
+}
+
+.texte {
+    color: #dc2f30;
+    font: 'Monserrat', sans-serif; 
+    font-size: 2vw;
+    text-align: justify;
+    line-height: 6vh;
+    padding-top: 5vh;
+    font-family: sans-serif;
+}
+
+#miyamoto {
+    float: right;
+    padding-right: 3%;
+    position: relative;
+    top: -2vh;
+}
+
+#mario-galaxy {
+	height: 100%;
+    float: left;
+    position: relative;
+    right: 10%;
+    
+}
+
+.texte-div-2 {
+    width: 65%;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#mario-1982 {
+    height: 50vh;
+    padding-right: 10%;
+    padding-left: 5%;
+    z-index: 2;
+    position: absolute;
+}
+
+#donkey-kong-1982 {
+    height: 50vh;
+    z-index: 2;
+    position: absolute;
+    right: 5%;
+}
+
+#donkey-kong-1982-responsive {
+    height: 50vh;
+    display: none;
+}
+
+#mario-1982-responsive {
+    height: 50vh;
+    padding-top: 25vh;
+    padding-right: 10%;
+    padding-left: 10%;
+    display: none;
+}
+
+#bande-beige {
+    background-color: bisque;
+    height: 20vh;
+    position: relative;
+    top: 35vh;
+    z-index: 1;
+}
+
+.mario-balls {
+    display: block;
+    margin: 0 auto;
+    padding-top: 18vh;
+}
+
+#all-mario {
+    display: block;
+    margin: 0 auto;
+    padding-top: 16vh;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#all-mario-responsive {
+    display: none;
+}
+
+/* Image */
+
+#conteneur {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: #2e2e2e;
+    font-family: 'Monserrat', sans-serif;
+}
+
+.slidershow{
+    width: 1008px;
+    height: 630px;
+    overflow: hidden;
+}
+  
+#previousdiv {
+    float: left;
+    width: 4%;
+    height: 100%;
+    z-index: 2;
+    position: relative;
+    background-color: #9D9D9D;
+    opacity: 0.4;
+    transition: 0.3s;
+}
+  
+#previousdiv:hover {
+    background-color: #fff;
+    opacity: 0.5;
+}
+  
+.previousimg {
+    width: 80%;
+    position: relative;
+    top: 45%;
+    left: 10%;
+    transform: rotate(180deg);
+}
+  
+#nextdiv {
+    float: right;
+    width: 4%;
+    height: 100%;
+    z-index: 2;
+    position: relative;
+    background-color: #9D9D9D;
+    opacity: 0.4;
+    transition: 0.3s;
+}
+  
+#nextdiv:hover {
+    background-color: #fff;
+    opacity: 0.5;
+}
+  
+.nextimg {
+    width: 80%;
+    position: relative;
+    top: 45%;
+    left: 10%;
+}
+  
+.middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+  
+.navigation{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    z-index: 2;
+}
+  
+.bar{
+    width: 25px;
+    height: 10px;
+    border: 2px solid #fff;
+    margin: 6px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.bar:hover{
+    background: #fff;
+}
+  
+input[name="r"]{
+      position: absolute;
+      visibility: hidden;
+}
+  
+.slides{
+    width: 500%;
+    height: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+}
+  
+.slide{
+    width: 20%;
+    transition: 0.6s;
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+  
+#r1:checked ~ .s1{
+    margin-left: 0;
+}
+#r2:checked ~ .s1{
+    margin-left: -20%;
+}
+#r3:checked ~ .s1{
+    margin-left: -40%;
+}
+#r4:checked ~ .s1{
+    margin-left: -60%;
+}
+#r5:checked ~ .s1{
+    margin-left: -80%;
+}
+
+/* Contact */
+
+.fermeBouton {
+    color: #fff;
+    width: 5%;
+    position: relative;
+    top: -38vh;
+    left: 2%;
+    transform: rotate(180deg);
+    transition: 0.3s;
+  }
+
+.fermeBouton:hover {
+    width: 6%;
+}
+  
+#mario-luigi {
+    position:relative;
+    top: 46.5vh;
+    left: 5%;
+}
+
+#contact {
+    height: 100vh;
+    background-image:linear-gradient(-30deg, #dc2f30, #1f326e);
+}
+
+#phrase1 {
+	color: #000000;
+	text-align: center;
+	font-family: sans-serif;
+	padding: 10px;
+	font-size: 3vw;
+}
+
+#formulaire {
+	background-color: #ffffff;
+	height: 75vh;
+	width: 40%;
+    position: relative;
+    left: 50%;
+    top: -40vh;
+    border-radius: 10%;
+}
+
+.indications {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 0 auto;
+  display: block;
+  border: 1px solid #ccc;
+  border-width: 1px;
+  border-radius: 4px;
+  font-family: 'Monserrat', sans-serif;
+}
+
+#valide {
+	background-color: #ed7c76;
+	color: #ffffff;
+	width: 40%;
+	height: 7vh;
+	display: block;
+    margin: 2vh auto;
+	font-size: 1.5vw;
+	font-weight: bold;
+	border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Mentions légales */
+
+#footer {
+    height: 8vh;
+    background-color: #142d5f;
+    position: relative;
+}
+
+#mentions {
+    color: #ffffff;
+    font-size: 1.5vw;
+    position: relative;
+    left: 10%;
+    top: 2vh;
+    font-family: 'Monserrat', sans-serif;
+}
+
+#footerML {
+    height: 100vh;
+    background-color: #142d5f;
+    position: relative;
+}
+
+#mentionsML {
+    color: #ffffff;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 18vh;
+    font-size: 1.5vw;
+}
+
+/* Connexion */
+
+#html-co {
+    height: 100vh;
+}
+
+#connexion_button {
+    right: 10px;
+    position: absolute;
+    top: 3px;
+    color: #ffffff;
+}
+
+#div_connexion {
+    background-color: #dc2f30;
+    height: 100vh;
+    width: 100%;
+}
+
+#form_connexion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 20vh;
+    height: 43vh;
+    padding-top: 8vh;
+    background-color: #142d5f;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+
+.input_co {
+    padding: 15px;
+    width: 60%;
+    font-size: 2vw;
+    border-radius: 20px;
+}
+
+#mario-key {
+    width: 10%;
+    position: relative;
+    top: -30vh;
+    right: 10%;
+    float: right;
+}
+
+/* Admin  */
+
+#admin_body, #body_publier, #body_publier_img {
+    background-color: #0c111d;
+    overflow: hidden;
+}
+
+#admin_body p {
+    color: #ffffff;
+    font-size: 1.5vw;
+    padding-top: 5vh;
+}
+
+.add_user , .nouveaux_champs , .bienvenue , #thead_uti {
+    padding: 5vh 0 5vh 0;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.td_uti {
+    color: #ffffff;
+    padding-bottom: 10%;
+    display: block;
+}
+
+.bienvenue {
+    text-align: center;
+    font-size: 2.5vw;
+    padding-top: 10vh;
+    text-decoration: underline;
+    color: #ffffff;
+    text-align: center;
+}
+
+.div_ajout {
+    width: 30%;
+    border: 2px solid #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 2%;
+}
+
+
+.form_uti {
+    text-align: center;
+}
+
+.valider_admin {
+    text-align: center;
+    width: 200px;
+    font-size: 1.5vw;
+    margin-bottom: 2vh;
+}
+
+.lien_admin {
+    left: 5%;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+#goback {
+    width: 90px;
+    padding: 2%;
+    position: relative;
+    top: -10vh;
+}
+
+/* Publier */
+
+#input_titre {
+    border-radius: 20px;
+    height: 5vh;
+    padding-left: 5%;
+    width: 80%;
+    font-size: 2vw;
+}
+
+#wysiwyg {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10vh 10% 5vh 10%;
+}
+
+.envoyer_article {
+    height: 7vh;
+    width: 40%;
+    background-color: #51d67d;
+    border-radius: 20px;
+    font-size: 2vw;
+    color: #ffffff;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.input_publier {
+    color: #ffffff;
+    border-radius: 20px;
+}   
+
+/* Galerie */
+/* Publier  */ 
+
+#goback_galerie {
+    width: 90px;
+    padding: 2%;
+    position: relative;
+    top: -40vh;
+}
+
+#content{
+    width: 50%;
+    margin: 20px auto;
+    border: 1px solid #ffffff;
+    position: relative;
+    top: -25vh;
+}
+
+#form_galerie{
+    width: 50%;
+    margin: 20px auto;
+  
+}
+
+#form_galerie div{
+    margin-top: 10px;
+}
+
+#fixed-div {
+    width: 100%;
+    height: 30vh;
+    background-color: black;
+    position: relative;
+    top: -30vh;
+    padding: 2vh 0;
+}
+
+#publier_img{
+    position: relative;
+    top: -25vh;
+    width: 40%;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#image_box {
+    width: 100%;
+    padding: 20vh 0 20vh 0;
+    background-color: #142d5f;
+    border-radius: 30px;
+}
+
+#body_galerie {
+    background-color: #dc2f30;
+}
+
+#image_test_man {
+    height: 70vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.3s;
+    top: 10vh;
+    border-radius: 30px;
+    
+}
+
+#image_test_man:hover {
+    height: 73vh;
+}
+
+#description_images {
+    font-size: 1.5vw;
+    padding-top: 5vh;
+    color: #ffffff;
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: justify;
+}
+
+#ensemble{
+    width: 80%;
+    
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding-top: 20vh;
+}
+
+.home{
+	height: 598px;
+	width: 900px;
+	overflow:hidden;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 10vh;
+    border-radius: 30px;
+}
+
+.home .slide{
+	position: absolute;
+	left:0;
+	top:0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	z-index:1; 
+	display:none;
+	padding:0 15px;
+	animation: slide 2s ease;
+}
+.home .slide.active{
+	display: flex;
+}
+@keyframes slide{
+	0%{
+		transform:scale(1.1);
+	}
+	100%{
+		transform: scale(1);
+	}
+}
+	
+
+.home .controls .prev,
+.home .controls .next{
+ position: absolute;
+ z-index:2;
+ top:50%;
+ height:40px;
+ width: 60px;
+ margin-top: -20px;
+ color:#ffffff;
+ background-color: #dc2f30;
+ text-align: center;
+ line-height: 40px;
+ font-size:20px;
+ cursor:pointer;
+ transition: all .5s ease;
+}
+.home .controls .prev:hover,
+.home .controls .next:hover{
+	background-color: #000000;
+}
+.home .controls .prev{
+ left:0;
+}
+.home .controls .next{
+ right:0;
+}
+
+.home .indicator{
+	position: absolute;
+	left:50%;
+	bottom:30px;
+	z-index: 2;
+	transform: translateX(-50%);
+}
+
+.home .indicator div{
+	display: inline-block;
+	width:25px;
+	height: 25px;
+	color:#ffffff;
+	background-color: #dc2f30;
+	border-radius:50%;
+	text-align: center;
+	line-height: 25px;
+	margin:0 3px;
+}
+
+.home .indicator div.active{
+ background-color: #000;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+	.controls{
+		display: none;
+	}
+}
+
+/* Blog */
+
+#titreBlog {
+    color: white;
+}
+
+.titreArticle {
+    margin-bottom: 0px;
+}
+
+#global {
+    min-height: 100%;
+    background: #333534;
+    width: 100%;
+    margin: auto;
+    text-align: justify;
+    padding: 5px 20px;
+}
+
+#contenuBlog {
+    margin-bottom: 30px;
+}
+
+#titreBlog, #piedBlog {
+    text-align: center;
+}
+
+#body_blog {
+    background: #142d5f;
+}
+
+#mario-luigi-kart {
+    width: 10%;
+    animation-name: drive;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+    top: 6vh;
+}
+
+@keyframes drive{
+    0% {
+        transform: translateX(0)
+    }
+    50% {
+        transform: translateX(900%)
+    }
+    51% {
+        transform: translateX(900%)
+        scaleX(-1);
+    }
+    100% {
+        transform: translateX(0)
+        scaleX(-1);
+    }
+}
+
+#article_container {
+    padding-top: 5vh;
+}
+
+.titreBlog {
+    color: white;
+    text-decoration: none;
+    background-color: #dc2f30;
+    width: 20%;
+    height: 7vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2vh;
+    border-radius: 30px;
+}
+
+.titreArticle {
+    margin-bottom: 0px;
+    padding: 2vh 0 2vh 2%;
+    color: #ffffff;
+    background-color: #dc2f30;
+    border-radius: 20px;
+    text-decoration: underline;
+}
+
+#global {
+    min-height: 100%;
+    background: #142d5f;
+    width: 85%;
+    margin: auto;
+    text-align: justify;
+}
+
+#contenuBlog {
+    color: #ffffff;
+   
+    
+}
+
+.texteBlog {
+    color: #ffffff;
+}
+
+.titreBlog, #piedBlog {
+    text-align: center;
+}
+
+
+
+@media (max-width : 640px) {
+   
+    /* Accueil */
+
+    #navicon-burger {
+        display: block;
+        padding: 0;
+        height: 0;
+    }
+
+    ::before {
+        display: block;
+        padding: 20px 30px;
+        font-size: 40px;
+        position: fixed;
+        z-index: 60;
+    }
+
+    nav {
+        position: fixed;
+        top: 0;
+        height: 100vh;
+        width: 100%;
+        z-index: 200;
+        visibility: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #dc2f30;
+    }
+
+    #menu {
+        flex-flow: wrap;
+    }
+    
+    #menu li {
+        list-style: none;
+        width: 100%;
+        margin: 0;
+    }
+    
+    #menu li a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 50px;
+        display: inline-block;
+        padding: 15px 50px;
+        text-transform: uppercase;
+        border-bottom: 1px solid #142d5f;
+        transition: 0.2s ease all;
+    }
+    
+    #menu li:last-child a {
+        border-bottom: none;
+    }
+    
+    #menu li:hover a {
+        background-color: #E8494A;
+        font-size: 70px;
+    }
+
+    .fermeMenu {
+        display: block;
+        color: #ffffff;
+        font-size: 48px;
+        margin: 0;
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        cursor: pointer;
+    }
+
+    #mario-head {
+        width: 200px;
+        position: relative;
+        top: 60px;
+    }
+
+    #mario-font {
+        width: 250px;
+        padding: 0px;
+        top: 90px;
+        position: relative;
+    }
+
+    #bulle {
+        width: 180px;
+        margin: -70vh 50%;
+    }
+
+    /* Biographie */
+
+    .fermeBouton {
+        width: 9%;
+    }
+
+    .fermeBouton:hover {
+        width: 10%;
+    }
+
+    .blue1 {
+        width: 100%;
+        height: 115vh;
+    }
+
+    .red1 {
+        width: 0%;
+    }
+
+    #blue2 {
+        background-color: #dc2f30;
+    }
+
+    .titre {
+        font-size: 6vw;
+    }
+
+    .texte {
+        font-size: 4vw;
+        line-height: 4vh;
+    }
+
+    #texte-responsive {
+        color: #1f326e;
+        line-height: 4vh;
+    }
+
+    #texte-responsive2 {
+        color: #1f326e;
+        line-height: 4vh;
+    }
+
+    #mario-galaxy-responsive {
+        width: 100%;
+        float: right;
+        position: relative;
+        top: -90px;
+    }
+
+    #miyamoto {
+        top: -55vh;
+        width: 90px;
+    }
+
+    .texte-div-2 {
+        padding-top: 5vh;
+    }
+
+    #mario-1982-responsive {
+        height: 29vh;
+        padding: 0 5px;
+        display: block;
+        margin-left: auto;
+        position: relative;
+        top: -10vh;
+    }
+
+    #donkey-kong-1982-responsive {
+        height: 29vh;
+        padding: 0 5px;
+        display: block;
+        margin-right: auto;
+        position: relative;
+        top: -10vh;
+    }
+
+    #mario-1982 {
+        display: none;
+    }
+
+
+    #donkey-kong-1982 {
+        display: none;
+    }
+
+    #responsive-1982 {
+        height: 10vh;
+        padding: 0 0;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        position: relative;
+        top: 12vh;
+        width: 95%;
+        background-color: bisque;
+    }
+
+    .mario-balls {
+        width: 50%;
+        padding-top: 7vh;
+    }
+
+    #blue4 {
+        background-color: #dc2f30;
+    }
+    
+    #all-mario-responsive {
+        width: 95%;
+        padding: 10vh 0 0 0;
+        display: block;
+        margin: 0 auto;
+    }
+
+    /* Image */
+
+    .home {
+        height: 192px;
+        width: 300px;
+        top: 20vh;
+    }
+
+    .indicator {
+        bottom: 10px;
+    }
+
+    #ensemble {
+        width: 90%;
+    }
+
+    #image_test_man {
+        width: 95%;
+        height: inherit;
+    }
+
+    #description_images {
+        font-size: 4vw;
+    }
+
+    #image_box {
+        padding: 15vh 0 20vh 0;
+    }
+
+    /* Contact */
+
+    #mario-luigi {
+        top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        left: auto;
+        width: 60%;
+        
+    }
+    
+    #contact {
+        overflow: hidden;
+    }
+    
+    #formulaire {
+        margin-left: auto;
+        margin-right: auto;
+        left: auto;
+        height: 430px;
+        width: 90%;
+        top: -50px;
+    }
+    
+    #phrase1 {
+        padding: 5px;
+        font-size: 4vw;
+    }
+    
+    .indications {
+        padding: 1vh 20px;
+    }
+    
+    
+    #valide {
+        margin: 1vh auto;
+        height: 6vh;
+    }
+    
+    .fermeBouton {
+        top: 10px;
+        width: 8%;
+    }
+
+    #footer {
+        height: 5vh;
+    }
+    
+    #mentions {
+        font-size: 3vw;
+        top: 1vh;
+    }    
+
+    .titreBlog {
+        width: 60%;
+    }
+
+    #mario-luigi-kart {
+        width: 30%;
+    }
+
+    /* Connexion 640*/
+
+    #div_connexion {
+        overflow: hidden;
+    }
+
+    #connexion_button {
+        right: 10px;
+        position: absolute;
+        top: 3px;
+        color: #ffffff;
+    }
+    #form_connexion {
+        height: 40vh;
+        width: 80%;
+
+    }
+    
+    .input_co {
+        width: 70%;
+        font-size: 5vw;
+    }
+    
+    #mario-key {
+        width: 30%;
+        top: 12vh;
+    }
+
+    /* Admin */
+
+    .div_ajout {
+        width: 80%;
+    }
+
+    #admin_body {
+        font-size: 5.2vw;
+    }
+
+    #admin_body {
+        width: 100%;
+    }
+
+    #input_titre {
+        font-size: 5.2vw;
+    }
+
+    .envoyer_article {
+        font-size: 3vw;
+    }
+
+    .bienvenue {
+        font-size: 5.2vw;
+        padding-top: 20vh;
+    }
+
+    .add_user , .nouveaux_champs , .bienvenue , #thead_uti, .lien_admin{
+        font-size: 5.2vw;
+    }
+
+    #admin_body p {
+        font-size: 5.2vw;
+    }
+
+    .valider_admin {
+        height: 5.2vw;
+        font-size: 3vw;
+    }
+
+    .lien_admin{
+        width: 80%;
+        
+        top: -2vh;
+    }
+
+    #goback {
+        padding: 10vh 5%;
+    }
+
+    #admin_body, #body_publier, #body_publier_img {
+        background-color: #0c111d;
+        overflow: auto;
+    }
+    #content {
+        width: 80%;
+    }
+
+    #publier_img{
+        width: 90%;
+    }
+
+    #form_galerie {
+        width: 55%;
+        margin: 5;
+    }
+
+    .td_uti {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 7vw;
+        text-align: center;
+    }
+
+    #text {
+        width: 175%
+    }
+
+    #goback_galerie {
+        top: -20vh;
+    }
+}
+
+@media (min-width : 640px) and (max-width : 1050px) {
+
+    /* Accueil */
+
+    #navicon-burger {
+        display: block;
+    }
+
+    ::before {
+        font-size: 10vw;
+    }
+
+    nav {
+        position: fixed;
+        top: 0;
+        height: 100vh;
+        width: 100%;
+        z-index: 200;
+        visibility: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #dc2f30;
+    }
+
+    #menu {
+        flex-flow: wrap;
+    }
+    
+    #menu li {
+        list-style: none;
+        width: 100%;
+        margin: 0;
+    }
+    
+    #menu li a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 70px;
+        display: inline-block;
+        padding: 15px 50px;
+        text-transform: uppercase;
+        border-bottom: 1px solid #142d5f;
+        transition: 0.2s ease all;
+    }
+    
+    #menu li:last-child a {
+        border-bottom: none;
+    }
+    
+    #menu li:hover a {
+        background-color: #E8494A;
+        font-size: 70px;
+    }
+
+    .fermeMenu {
+        display: block;
+        color: #ffffff;
+        font-size: 10vw;
+        margin: 0;
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        cursor: pointer;
+    }
+
+    #mario-head {
+        width: 250px;
+        position: relative;
+        top: -50px;
+    }
+
+    #mario-font {
+        width: 300px;
+        padding: 15%;
+    }
+
+    #bulle {
+        width: 180px;
+        margin: -70vh 50%;
+    }
+
+    /* Biographie */
+
+    .fermeBouton {
+        width: 9%;
+    }
+
+    .fermeBouton:hover {
+        width: 10%;
+    }
+
+    .blue1 {
+        width: 100%;
+        height: 150vh;
+    }
+
+    .red1 {
+        width: 0%;
+    }
+
+    #blue2 {
+        background-color: #dc2f30;
+    }
+
+    .titre {
+        font-size: 6vw;
+    }
+
+    .texte {
+        font-size: 4vw;
+    }
+
+    #texte-responsive {
+        color: #1f326e;
+    }
+
+    #texte-responsive2 {
+        color: #1f326e;
+    }
+
+    #mario-galaxy-responsive {
+        width: 100%;
+        float: right;
+        position: relative;
+        top: -90px;
+    }
+
+    #miyamoto {
+        top: -80vh;
+        width: 90px;
+    }
+
+    .texte-div-2 {
+        padding-top: 5vh;
+    }
+
+    #mario-1982-responsive {
+        height: 35vh;
+        padding: 0;
+        display: block;
+        float: left;
+    }
+
+    #donkey-kong-1982-responsive {
+        height: 35vh;
+        float: right;
+        display: block;
+    }
+
+    #mario-1982 {
+        display: none;
+    }
+
+
+    #donkey-kong-1982 {
+        display: none;
+    }
+
+    #responsive-1982 {
+        height: 40vh;
+        padding: 30px 0;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 80%;
+    }
+
+    .mario-balls {
+        width: 50%;
+        padding-top: 7vh;
+    }
+
+    #blue4 {
+        background-color: #dc2f30;
+    }
+    
+    #all-mario-responsive {
+        width: 95%;
+        padding: 15vh 0 0 0;
+        display: block;
+    }
+
+    /* Image */
+
+    .home {
+        height: 450px;
+        width: 700px;
+        top: 20vh;
+    }
+
+    .indicator {
+        bottom: 10px;
+    }
+
+    #ensemble {
+        width: 90%;
+    }
+
+    #image_test_man {
+        width: 95%;
+        height: inherit;
+    }
+
+    #description_images {
+        font-size: 4vw;
+    }
+
+    #image_box {
+        padding: 15vh 0 20vh 0;
+    }
+
+      /* Contact */
+
+      #mario-luigi {
+        top: 60vh;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        left: auto;
+        width: 60%;
+        bottom: 0;
+    }
+    
+    #contact {
+        overflow: hidden;
+    }
+    
+    #formulaire {
+        margin-left: auto;
+        margin-right: auto;
+        left: auto;
+        height: 65vh;
+        width: 70%;
+        top: -35vh;
+    }
+    
+    #phrase1 {
+        padding: 15px;
+        font-size: 4vw;
+    }
+    
+    .indications {
+        padding: 1vh 20px;
+    }
+    
+    .indications2 {
+        padding: 5px 20px 140px 20px;
+    }
+    
+    #valide {
+        margin: 1vh auto;
+    }
+    
+    .fermeBouton {
+        top: 10px;
+        width: 8%;
+    }
+
+    /* Blog */
+    .titreBlog {
+    width: 60%;
+    }
+
+    #body_blog {
+        font-size: 3vw;
+    }
+
+
+    /* Connexion 640*/
+    #form_connexion {
+        height: 29vh;
+        width: 80%;
+
+    }
+
+    /* Admin */
+
+    .div_ajout {
+        width: 80%;
+    }
+
+    #admin_body {
+        font-size: 5vw;
+    }
+
+    #input_titre {
+        font-size: 5vw;
+    }
+
+    .envoyer_article {
+        font-size: 3vw;
+    }
+
+    .bienvenue {
+        font-size: 5vw;
+        padding-top: 20vh;
+    }
+
+    #fixed-div {
+        top: -20vh;
+        width: 100%;
+        height: 30vh;
+        background-color: black;
+        
+    }
+
+    .td_uti {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 7vw;
+        text-align: center;
+        position: relative;
+        top: -18vh;
+    }
+
+    .add_user , .nouveaux_champs , .bienvenue , #thead_uti, .lien_admin{
+        font-size: 5vw;
+    }
+
+    #admin_body p {
+        font-size: 5vw;
+    }
+
+    .valider_admin {
+        height: 5vw;
+        font-size: 3vw;
+    }
+
+    .lien_admin{
+        width: 80%;
+        
+        top: -2vh;
+    }
+
+    #goback {
+        padding: 10vh 0;
+    }
+
+    #admin_body, #body_publier, #body_publier_img {
+        background-color: #0c111d;
+        overflow: auto;
+    }
+    #content {
+        width: 80%;
+    }
+
+    #publier_img{
+        width: 90%;
+    }
+
+    #form_galerie {
+        width: 55%;
+        margin: 5;
+    }
+    #text {
+        width: 175%
+    }
+
+    #goback_galerie {
+        top: -20vh;
+    }
+
+
+}
